@@ -1,3 +1,5 @@
+Coding test completed by Aria Rossi for Seven West Media
+
 node_module files have not been included in this project, please install dependencies before running
 
 # Getting Started with Create React App
