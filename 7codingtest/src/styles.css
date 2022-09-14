@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .centerElement{
+        margin: 5px !important;
+        padding: 5px !important;
+    }
+    .blockquoteText{
+        font-size: 20px !important;
+    }
+    .imgquote{
+        font-size: 10px;
+    }
+  }
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+h1{
+    /*style = {{color:'#2b2b2b'}*/
+    color: #272727;
+    font-weight: normal;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+hr{
+    border:none;
+    height:1px;
+    background-color: #999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page{
+    max-width: 850px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+.centerElement{
+    max-width: 550px;
+    padding: 20px;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgquote{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.blockquote{
+    max-width: 550px;
+    padding-left: 20px;
+    border-left: 8px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blockquoteText{
+    font-size: 28px;
+    font-style: italic;
+    margin:0;
+}
+
+.blockquoteAuthor{
+    font-size: 14px;
+}
